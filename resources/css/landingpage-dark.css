@@ -2,6 +2,10 @@ html,
 body {
     margin: 0px;
     width: 100%;
+    z-index: -10;
+}
+html{
+    background-color: rgba(0, 0, 0, 0.705);
 }
 
 #rectangle1 {
@@ -11,7 +15,7 @@ body {
     left: 0%;
     top: 27px;
     z-index: -2;
-    background: rgba(138, 222, 155, 0.2);
+    background: rgba(3, 177, 38, 0.623);
 }
 
 #rectangle2 {
@@ -21,7 +25,7 @@ body {
     left: 62.291666666666664%;
     top: 157px;
     z-index: -2;
-    background: rgba(138, 222, 155, 0.2);
+    background: rgba(3, 177, 38, 0.623);
 }
 
 #rectangle3 {
@@ -31,7 +35,7 @@ body {
     height: 435.00000000000006px;
     left: 84.94791666666667%;
     top: 33px;
-    background: rgba(138, 222, 155, 0.2);
+    background: rgba(3, 177, 38, 0.623);
 }
 
 #rectangle4 {
@@ -41,7 +45,7 @@ body {
     left: 3.125%;
     top: 613px;
     z-index: -2;
-    background: rgba(138, 222, 155, 0.2);
+    background: rgba(3, 177, 38, 0.623);
 }
 
 #rectangle5 {
@@ -51,7 +55,7 @@ body {
     left: 34.166666666666664%;
     top: 613px;
     z-index: -2;
-    background: rgba(138, 222, 155, 0.2);
+    background: rgba(3, 177, 38, 0.623);
 }
 
 #rectangle6 {
@@ -61,7 +65,7 @@ body {
     left: 72.96875%;
     top: 572px;
     z-index: -2;
-    background: rgba(138, 222, 155, 0.2);
+    background: rgba(3, 177, 38, 0.623);
 }
 
 .fa-bars {
@@ -71,7 +75,7 @@ body {
 #rectangle7 {
     position: relative;
     width: 46.041666666666664%;
-    background: #D2F3DE;
+    background: #000000;
     border-radius: 12px;
 
 }
@@ -98,7 +102,7 @@ body {
 
 nav {
     z-index: 100;
-    background: rgba(62, 95, 79, 0.4);
+    background: rgba(62, 95, 79, 0.644);
     display: flex;
     padding: 0% 0%;
     justify-content: space-between;
@@ -134,18 +138,18 @@ nav {
     padding: 10px 20px;
     margin-left: 10px;
     position: relative;
-    background: #01AF57;
+    background: #004120;
     border-radius: 3px;
 }
 
 .main-nav ul li a {
-    color: #1F2420;
+    color: #ffffff;
     text-decoration: none;
 }
 
 #try {
     color: #F6FFFA;
-    background: #01AF57;
+    background: #00361b;
     border-radius: 20px;
 }
 
@@ -171,7 +175,7 @@ nav {
     align-items: center;
     text-align: center;
     justify-content: center;
-    color: #395157;
+    color: #63e0ff;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -188,7 +192,7 @@ nav {
     align-items: center;
     text-align: center;
     justify-content: center;
-    color: #4D5B50;
+    color: #16fb48;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -201,6 +205,7 @@ nav {
     flex-flow: column;
     flex-wrap: wrap;
     justify-content: center;
+    color: #F6FFFA;
     margin-left: 60px;
 }
 
@@ -214,7 +219,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgb(1, 175, 87);
+    background: rgb(4, 107, 55);
     overflow-wrap: break-word;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     margin: 10px;
@@ -224,7 +229,7 @@ nav {
 
 #box4 {
     color: #F6FFFA;
-    background: rgba(31, 36, 32, 0.9);
+    background: rgba(27, 123, 3, 0.9);
 }
 
 
@@ -232,7 +237,7 @@ nav {
     position: relative;
     width: 20%;
     height: auto;
-    background: #01AF57;
+    background: #024926;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,7 +245,7 @@ nav {
 
 .container3 p {
     transform: rotate(90deg);
-    color: #F6FFFA;
+    color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 75px;
 }
@@ -271,7 +276,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #395157;
+    color: #83cbdd;
 }
 
 #box8 {
@@ -286,7 +291,7 @@ nav {
     align-items: center;
     text-align: center;
     justify-content: center;
-    color: #677476;
+    color: #82d8e5;
 }
 
 .container12 {
@@ -316,7 +321,7 @@ nav {
 #qq2,
 #qq3,
 #qq4 {
-    color: #01AF57;
+    color: #013e20;
     z-index: 2;
 }
 
@@ -341,10 +346,10 @@ nav {
     display: grid;
     grid-template-columns: 130fr 358fr;
     grid-template-rows: 6fr 1fr 1fr;
-    background: rgba(31, 36, 32, 0.9);
+    background: rgba(213, 238, 218, 0.9);
     border-radius: 12px;
     font-size: 18px;
-    color: #F6FFFA;
+    color: #000000;
     flex-grow: 1;
 }
 
@@ -360,12 +365,12 @@ nav {
 
 .chillguy {
     align-self: flex-end;
-    color: #4D5B50;
+    color: #94c29e;
     font-size: 20px;
 }
 
 .produ {
-    color: #4D5B50;
+    color: #a0bda6;
 }
 
 .pfp {
@@ -383,7 +388,7 @@ nav {
     width: 6.666666666666667%;
     height: 12px;
     margin-top: 64px;
-    background: #D2F3DE;
+    background: #3d4941;
     border-radius: 30px;
     margin-left: 49%;
     min-width: 90px;
@@ -392,7 +397,7 @@ nav {
 #rectangle10 {
     position: relative;
     width: 35%;
-    background: #01AF57;
+    background: #436654;
     border-radius: 30px;
 }
 
@@ -420,7 +425,7 @@ nav {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #395157;
+    color: #7cb1be;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -437,7 +442,7 @@ nav {
     display: flex;
     align-items: center;
     max-width: 60%;
-    color: #000000;
+    color: #ffffff;
 }
 
 #ques1,
@@ -450,7 +455,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: #01AF57;
+    background: #015229;
     padding: 30px;
     overflow-wrap: break-word;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -468,6 +473,7 @@ nav {
     flex-flow: column;
     flex-wrap: wrap;
     justify-content: center;
+    color: white;
     margin-top: 262px;
     margin-bottom: 346px;
 }
@@ -476,7 +482,7 @@ nav {
 #ques2 div,
 #ques3 div,
 #ques4 div {
-    background: #10C067;
+    background: #013119;
     border-radius: 20px;
     margin-left: 10px;
 }
@@ -491,9 +497,10 @@ nav {
 .container7,
 .container72 {
     position: relative;
-    background: #1F2420;
+    background: #015516;
     display: flex;
     justify-content: space-around;
+    color: white;
     align-items: center;
 }
 
@@ -514,7 +521,7 @@ nav {
     display: flex;
     justify-content: center;
     border-radius: 50px;
-    background: #344137;
+    background: #b7e9c2;
     margin: 10px;
     padding: 10px;
 }
@@ -522,7 +529,7 @@ nav {
 .def {
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #F6FFFA;
+    color: #ffffff;
 }
 
 #logo2 {
@@ -573,7 +580,7 @@ nav {
     margin: 5px;
     padding: 5px;
     border-radius: 50px;
-    background: #344137;
+    background: #a3cdad;
 }
 
 .row3 {
@@ -588,12 +595,12 @@ nav {
 }
 
 #abo {
-    color: #8FA898;
+    color: white;
     font-size: 24px;
 }
 
 #lor {
-    color: #fff;
+    color: white;
     font-size: 20px;
 }
 
@@ -655,12 +662,12 @@ nav {
         text-align: center;
         padding-top: 2px;
         padding-bottom: 2px;
-        background: #01AF57;
+        background: #00341a;
         z-index: 10;
     }
 
     #li3 {
-        color: #000000;
+        color: #ffffff;
     }
 
     #bars {
@@ -745,13 +752,13 @@ nav {
     }
 
     .container3 {
-        background: #fff;
+        background: #000000;
         width: 91%;
         margin: auto;
     }
 
     .container3 p {
-        color: #000000;
+        color: #ffffff;
         transform: rotate(0deg);
         font-size: 40px;
     }
@@ -845,8 +852,8 @@ nav {
     }
 
     .container72 {
-        position: relative;
-        background: #1F2420;
+        position: relative;    
+        background: #afcfb6;
         display: flex;
         justify-content: space-around;
         align-items: center;
