@@ -106,9 +106,9 @@ nav {
 }
 
 #logo1 {
-    padding-left: 20px;
+    padding-left: 60px;
     height: 40px;
-    top: 10px;
+    top: 9px;
 }
 
 .main-nav {
@@ -130,7 +130,10 @@ nav {
 #li3 {
     list-style: none;
     display: inline-block;
-    padding: 10px 20px;
+    height: 36px;
+    width: 121px;
+    text-align: center;
+    align-items: center;
     margin-left: 10px;
     position: relative;
     background: #01AF57;
