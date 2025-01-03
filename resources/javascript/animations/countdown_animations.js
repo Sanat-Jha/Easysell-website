@@ -44,3 +44,4 @@ function animateCounter(element, end, duration) {
   }
 
   window.onload = startCounterWhenVisible;
+  
