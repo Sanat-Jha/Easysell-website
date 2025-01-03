@@ -34,7 +34,7 @@ function animateCounter(element, end, duration) {
 
     const checkVisibility = () => {
       if (isElementInViewport(counterElement)) {
-        animateCounter(counterElement, targetValue, 2000);
+        animateCounter(counterElement, targetValue, 1000);
         window.removeEventListener("scroll", checkVisibility);
       }
     };
