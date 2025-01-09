@@ -165,6 +165,9 @@ nav {
     color: #1F2420;
     text-decoration: none;
 }
+.theme-switch-btn{
+    cursor: pointer;
+}
 
 #try {
     color: #F6FFFA;
