@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url("../fonts/SourceSansPro-Regular.otf");
+}
 html,
 body {
     margin: 0px;
     margin-top: 3px;
     width: 100%;
+    font-family: 'Source Sans Pro';
 }
 
 #rectangle1 {
@@ -186,7 +191,6 @@ nav {
 #box1 {
     /* Now sell your product hassle free in a day with Unhasell */
     width: 790px;
-    font-family: 'Helvetica Neue Medium Extended';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -203,7 +207,6 @@ nav {
 #box2 {
     /* Sell your product at your door step and our team will pick up within 24hrs at best price */
     width: 790px;
-    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -239,7 +242,6 @@ nav {
     justify-content: center;
     background: rgb(1, 175, 87);
     overflow-wrap: break-word;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     margin: 10px;
     border-radius: 8px;
     padding: 20px 13px 20px 28px;
@@ -264,7 +266,6 @@ nav {
 .container3 p {
     transform: rotate(-90deg);
     color: #F6FFFA;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 75px;
 }
 
@@ -284,7 +285,6 @@ nav {
 #box7 {
     padding-top: 97px;
     position: relative;
-    font-family: 'Helvetica Neue Medium Extended';
     font-style: normal;
     font-weight: 500;
     font-size: 52px;
@@ -300,7 +300,6 @@ nav {
 #box8 {
     position: relative;
     height: auto;
-    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -441,7 +440,6 @@ nav {
     position: relative;
     margin-top: 415px;
     left: 22%;
-    font-family: 'Helvetica Neue Medium Extended';
     font-style: normal;
     font-weight: 500;
     font-size: 58px;
@@ -457,7 +455,6 @@ nav {
 #faq2 {
     position: relative;
     left: 22%;
-    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -479,7 +476,6 @@ nav {
     padding: 30px;
     line-height: 40.22px;
     overflow-wrap: break-word;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0.5em;
     border-radius: 10px;
     padding-right: 40px;
@@ -513,7 +509,6 @@ nav {
     background: #344137;
     line-height: 40.22px;
     overflow-wrap: break-word;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0.5em;
     margin-left: 0.76em;
     border-radius: 10px;
