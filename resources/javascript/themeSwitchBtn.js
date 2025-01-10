@@ -1,11 +1,13 @@
-const switchThemeBtn = document.querySelector('.theme-switch-btn');
+const themeSwitch = document.querySelector('.theme-switch-btn');
 const header = document.querySelector('head');
-switchThemeBtn.addEventListener('click', () => {
-    if (switchThemeBtn.innerText === 'Light Theme') {
-        switchThemeBtn.innerText = 'Dark Theme';
+const body = document.body;
+
+themeSwitch.addEventListener('click', () => {
+    if (body.classList.contains('dark-theme')) {
+        body.classList.remove('dark-theme');
         header.removeChild(document.querySelector('.dark-theme-css'));
     } else {
-        switchThemeBtn.innerText = 'Light Theme';
+        body.classList.add('dark-theme');
         const darkThemeCSS = document.createElement('link');
         darkThemeCSS.rel = 'stylesheet';
         darkThemeCSS.href = './resources/css/landingpage-dark.css';
