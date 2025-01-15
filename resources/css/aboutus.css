@@ -399,6 +399,8 @@ nav {
         font-size: 16px;
     }
 }
+
+
 /* meet the team section */
 .team {
     display: flex;
@@ -485,23 +487,20 @@ nav {
         transform: none;
         font-size: 32px;
     }
-
-    .team__container {
-        padding: 30px 20px;
-    }
-
     .team__grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        overflow-x: scroll;
+    }
+    .team__image-wrapper{
+        width: calc(100vw - 40px);
+    }
+    .team__container{
+        padding: 40px 20px;
     }
 
-    .team__name {
-        font-size: 20px;
-    }
 
-    .team__position {
-        font-size: 16px;
-    }
 }
 
 /* faq section  */
