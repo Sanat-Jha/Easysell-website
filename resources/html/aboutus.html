@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="../css/aboutus.css">
 </head>
 <body>
-    <nav>
-        <img src="../images/logo1.svg" alt="Easy Sell">
+  <nav>
+    <img src="../images/logo1.svg" alt="Easy Sell">
+    <div class="nav-right">
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <ul class="main-nav">
-            <a href=""><li class="nav-item"> About Us</li></a>
+            <a href=""><li class="nav-item">About Us</li></a>
             <a href="./contactus.html"><li class="nav-item">Contact Us</li></a>
-            <li class="nav-item nav-item-bold">Try is out</li>
         </ul>
-    </nav>
+        <div class="nav-item nav-item-bold">Try us out</div>
+    </div>
+</nav>
 <section class="about">
     <div class="about__container">
       <!-- About Easysell Section -->
@@ -40,8 +47,7 @@
       </div>
     </div>
   </section>
-  
-<section class="hero">
+  <section class="hero">
     <div class="hero__container">
       <div class="hero__content">
         <h1 class="hero__heading">
@@ -51,62 +57,60 @@
         
         <div class="hero__stats">
           <div class="hero__stat-grid">
-            <!-- Stat Card 1 -->
-            <div class="hero__stat-card">
-              <div class="hero__stat-content">
-                <span class="hero__stat-number">15000+</span>
-                <div class="hero__stat-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 12H16M8 12C8 15.3137 10.6863 18 14 18H16M8 12C8 8.68629 10.6863 6 14 6H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                  </svg>
+            <!-- First Pair -->
+            <div class="card-pair">
+              <!-- Card 1 -->
+              <div class="hero__stat-card">
+                <div class="hero__stat-content">
+                  <span class="hero__stat-number">15000+</span>
+                  <div class="hero__stat-icon">
+<img src="../svg/chat_icon_about_page.svg" width="26" height="26">
+                  </div>
                 </div>
+                <p class="hero__stat-label">satisfied customers</p>
               </div>
-              <p class="hero__stat-label">satisfied customers</p>
+              
+              <!-- Card 2 -->
+              <div class="hero__stat-card">
+                <div class="hero__stat-content">
+                  <span class="hero__stat-number">15000+</span>
+                  <div class="hero__stat-icon">
+                    <img src="../svg/chat_icon_about_page.svg" width="26" height="26">
+                  </div>
+                </div>
+                <p class="hero__stat-label">satisfied customers</p>
+              </div>
             </div>
-  
-            <!-- Stat Card 2 -->
-            <div class="hero__stat-card">
-              <div class="hero__stat-content">
-                <span class="hero__stat-number">15000+</span>
-                <div class="hero__stat-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 12H16M8 12C8 15.3137 10.6863 18 14 18H16M8 12C8 8.68629 10.6863 6 14 6H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                  </svg>
+
+            <!-- Second Pair -->
+            <div class="card-pair">
+              <!-- Card 3 -->
+              <div class="hero__stat-card">
+                <div class="hero__stat-content">
+                  <span class="hero__stat-number">15000+</span>
+                  <div class="hero__stat-icon">
+                    <img src="../svg/chat_icon_about_page.svg" width="26" height="26">
+                  </div>
                 </div>
+                <p class="hero__stat-label">satisfied customers</p>
               </div>
-              <p class="hero__stat-label">satisfied customers</p>
-            </div>
-  
-            <!-- Stat Card 3 -->
-            <div class="hero__stat-card">
-              <div class="hero__stat-content">
-                <span class="hero__stat-number">15000+</span>
-                <div class="hero__stat-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 12H16M8 12C8 15.3137 10.6863 18 14 18H16M8 12C8 8.68629 10.6863 6 14 6H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                  </svg>
+              
+              <!-- Card 4 -->
+              <div class="hero__stat-card">
+                <div class="hero__stat-content">
+                  <span class="hero__stat-number">15000+</span>
+                  <div class="hero__stat-icon">
+                    <img src="../svg/chat_icon_about_page.svg" width="26" height="26">
+                  </div>
                 </div>
+                <p class="hero__stat-label">satisfied customers</p>
               </div>
-              <p class="hero__stat-label">satisfied customers</p>
-            </div>
-  
-            <!-- Stat Card 4 -->
-            <div class="hero__stat-card">
-              <div class="hero__stat-content">
-                <span class="hero__stat-number">15000+</span>
-                <div class="hero__stat-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 12H16M8 12C8 15.3137 10.6863 18 14 18H16M8 12C8 8.68629 10.6863 6 14 6H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                  </svg>
-                </div>
-              </div>
-              <p class="hero__stat-label">satisfied customers</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+</section>
   
 
   <!-- HTML -->
@@ -285,7 +289,7 @@
     </div>
   </footer>
   
-
+<script src="../javascript/menubutton.js"></script>
     
 </body>
 </html>
