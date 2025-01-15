@@ -87,7 +87,7 @@ body {
 
 #header-background {
     z-index: 100;
-    position: fixed; 
+    position: fixed;
     width: 100%;
     height: 60px;
     left: 0px;
@@ -97,10 +97,10 @@ body {
 }
 
 nav {
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 100;
     display: flex;
     padding: 0% 0%;
@@ -111,12 +111,26 @@ nav {
 
 
 #logo1 {
-    position: fixed; 
+    position: fixed;
     left: 60px;
     height: 45px;
     width: 45px;
     top: 9px;
     z-index: 101;
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+        position: relative;
+    }
+
+    #logo1 {
+        position: relative;
+    }
+
+    #header-background {
+        display: relative;
+    }
 }
 
 .main-nav {
@@ -136,8 +150,8 @@ nav {
     position: relative;
 }
 
-#scrollTOP{
-   
+#scrollTOP {
+
     position: fixed;
     right: 15px;
     bottom: 15px;
@@ -154,7 +168,7 @@ nav {
     cursor: pointer;
 }
 
-#scrollTOP:active{
+#scrollTOP:active {
     background-color: #328543;
 }
 
@@ -333,7 +347,10 @@ nav {
     padding: 30px;
 }
 
-#q1:hover, #q2:hover, #q3:hover, #q4:hover{
+#q1:hover,
+#q2:hover,
+#q3:hover,
+#q4:hover {
     scale: 1.07;
     transition-duration: 0.2s;
 }
@@ -473,7 +490,7 @@ nav {
     color: #000000;
 }
 
-#ques1{
+#ques1 {
     flex-grow: 1;
     font-size: 32px;
     display: flex;
@@ -503,7 +520,7 @@ nav {
     margin-bottom: 346px;
 }
 
-.ans{
+.ans {
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
@@ -529,17 +546,19 @@ nav {
 
 
 
-.faqBox.active .ans{
+.faqBox.active .ans {
     max-height: 300px;
 }
-.faqBox img{
+
+.faqBox img {
     transition: all 0.3s ease-in-out;
 }
-.faqBox.active img{
+
+.faqBox.active img {
     transform: rotate(180deg);
 }
 
-#ques1 div{
+#ques1 div {
     background: #10C067;
     border-radius: 20px;
     margin-left: 10px;
@@ -583,7 +602,7 @@ nav {
     padding: 10px;
 }
 
-.abc:hover{
+.abc:hover {
     background: #01AF57;
     scale: 1.2;
     transition-duration: 0.3s;
@@ -646,7 +665,7 @@ nav {
     background: #344137;
 }
 
-.ijk:hover{
+.ijk:hover {
     background: #01AF57;
     scale: 1.2;
     transition-duration: 0.3s;
@@ -701,11 +720,12 @@ nav {
         margin-right: 60px;
     }
 
-    #ques1{
+    #ques1 {
         font-size: 20px;
         margin-right: 100px;
     }
-    .ans{
+
+    .ans {
         font-size: 16px;
         margin-right: 100px;
     }
@@ -908,13 +928,14 @@ nav {
         margin-bottom: 50px;
     }
 
-    #ques1{
+    #ques1 {
         margin-right: 0px;
         font-size: 18px;
         padding: 10px;
         margin: 0.5rem;
     }
-    .ans{
+
+    .ans {
         margin-right: 0px;
         font-size: 14px;
         padding: 10px;
